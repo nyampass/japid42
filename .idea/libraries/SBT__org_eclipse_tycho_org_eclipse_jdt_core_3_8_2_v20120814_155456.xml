@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.eclipse.tycho:org.eclipse.jdt.core:3.8.2.v20120814-155456">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/src/play-2.2.2/repository/cache/org.eclipse.tycho/org.eclipse.jdt.core/jars/org.eclipse.jdt.core-3.8.2.v20120814-155456.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

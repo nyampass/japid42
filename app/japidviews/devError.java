@@ -1,7 +1,7 @@
 package japidviews;
 import java.util.TreeMap;
 
-public class devError extends cn.bran.play.JapidTemplateBase
+public class devError extends com.nyampass.jerk.play.JapidTemplateBase
 {
 	private static final long serialVersionUID = -1632766355048011190L;
 
@@ -33,7 +33,7 @@ public class devError extends cn.bran.play.JapidTemplateBase
 /* based on https://github.com/branaway/Japid/issues/12
  */
 	public static final String[] argNames = new String[] {/* args of the template*/"error",  };
-	public static final String[] argTypes = new String[] {/* arg types of the template*/"cn.bran.japid.exceptions.JapidTemplateException",  };
+	public static final String[] argTypes = new String[] {/* arg types of the template*/"com.nyampass.jerk.exceptions.JapidTemplateException",  };
 	public static final Object[] argDefaults= new Object[] {null, };
 	public static java.lang.reflect.Method renderMethod = getRenderMethod(japidviews.devError.class);
 
@@ -46,15 +46,15 @@ public class devError extends cn.bran.play.JapidTemplateBase
 	}
 ////// end of named args stuff
 
-	private cn.bran.japid.exceptions.JapidTemplateException error; // line 1
-	public cn.bran.japid.template.RenderResult render(cn.bran.japid.exceptions.JapidTemplateException error) {
+	private com.nyampass.jerk.exceptions.JapidTemplateException error; // line 1
+	public com.nyampass.jerk.template.RenderResult render(com.nyampass.jerk.exceptions.JapidTemplateException error) {
 		this.error = error;
 		long __t = -1;
 		try {super.layout();} catch (RuntimeException e) { super.handleException(e);} // line 1
-		return new cn.bran.japid.template.RenderResultPartial(getHeaders(), getOut(), __t, actionRunners, sourceTemplate);
+		return new com.nyampass.jerk.template.RenderResultPartial(getHeaders(), getOut(), __t, actionRunners, sourceTemplate);
 	}
 
-	public static cn.bran.japid.template.RenderResult apply(cn.bran.japid.exceptions.JapidTemplateException error) {
+	public static com.nyampass.jerk.template.RenderResult apply(com.nyampass.jerk.exceptions.JapidTemplateException error) {
 		return new devError().render(error);
 	}
 

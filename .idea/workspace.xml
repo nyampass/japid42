@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63dc6efc-0913-4c3e-b897-fc71a2e321d8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/AnInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/RunAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.japidClasses.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/AnInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cn/bran/play/RunAction.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/MyTuple2.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/MyTuple2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/classmeta/AbstractTemplateClassMetaData.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/AbstractTemplateClassMetaData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/classmeta/InnerClassMeta.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/InnerClassMeta.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/classmeta/LayoutClassMetaData.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/LayoutClassMetaData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/classmeta/MimeTypeEnum.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/MimeTypeEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/classmeta/TemplateClassMetaData.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/TemplateClassMetaData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidAbstractCompiler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidAbstractCompiler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidCompilationException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidCompilationException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidLayoutCompiler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidLayoutCompiler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidParser.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidTemplateCompiler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidTemplateCompiler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JapidTemplateTransformer.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JapidTemplateTransformer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/JavaSyntaxTool.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/JavaSyntaxTool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/NamedArg.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/NamedArg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/NamedArgRuntime.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/NamedArgRuntime.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/OpMode.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/OpMode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/Tag.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/Tag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/TagInvocationLineParser.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/TagInvocationLineParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/TemplateClass.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/TemplateClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/TokenPair.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/TokenPair.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/compiler/TranslateTemplateTask.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/compiler/TranslateTemplateTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/exceptions/JapidRuntimeException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/exceptions/JapidRuntimeException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/exceptions/JapidTemplateException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/exceptions/JapidTemplateException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/CompilationUnit.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/CompilationUnit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/CompilerRequestor.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/CompilerRequestor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/NameEnv.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/NameEnv.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/RendererClass.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/RendererClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/RendererCompiler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/RendererCompiler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/rendererloader/TemplateClassLoader.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/rendererloader/TemplateClassLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/tags/Each.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/tags/Each.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/tags/SimpleTag.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/tags/SimpleTag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/tags/streaming/Each.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/tags/streaming/Each.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/ActionRunner.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/ActionRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/AmmendableScheduledExecutor.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/AmmendableScheduledExecutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/AuthenticityCheck.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/AuthenticityCheck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JDKVersion.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JDKVersion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidModelMap.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidModelMap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidRenderer.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidRenderer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidTemplate.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidTemplateBaseStreaming.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidTemplateBaseStreaming.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidTemplateBaseWithStringBundler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidTemplateBaseWithStringBundler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidTemplateBaseWithoutPlay.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidTemplateBaseWithoutPlay.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/JapidTemplateNotFoundException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/JapidTemplateNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/RenderResult.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/RenderResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/RenderResultBundler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/RenderResultBundler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/RenderResultPartial.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/RenderResultPartial.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/template/UseJapid.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/template/UseJapid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/DirUtil.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/DirUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/DummyUrlMapper.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/DummyUrlMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/FlashScope.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/FlashScope.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/FlashScopeGeneric.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/FlashScopeGeneric.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/HTMLUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/HTMLUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/JapidDateFormat.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/JapidDateFormat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/JapidFlags.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/JapidFlags.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/MessageProvider.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/MessageProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/PlayDirUtil.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/PlayDirUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/RenderInvokerUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/RenderInvokerUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/SimpleMessageProvider.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/SimpleMessageProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/StackTraceUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/StackTraceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/StringBundler.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/StringBundler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/StringUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/StringUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/UrlMapper.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/UrlMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/japid/util/WebUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/util/WebUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/AltCache.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/AltCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/AltCacheSimpleImpl.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/AltCacheSimpleImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/AuthenticForm.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/AuthenticForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/CacheablePlayActionRunner.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/CacheablePlayActionRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/CacheablePlayActionRunnerImpl1.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/CacheablePlayActionRunnerImpl1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/CacheableRunner.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/CacheableRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/CachedItemStatus.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/CachedItemStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/CachedRenderResult.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/CachedRenderResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/FieldErrors.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/FieldErrors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/FlashWrapper.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/FlashWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/GlobalSettingsWithJapid.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/GlobalSettingsWithJapid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/JapidController.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/JapidMailer.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidMailer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/JapidResult.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/JapidTemplateBase.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidTemplateBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/Mail.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/Mail.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/NoEnhance.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/NoEnhance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/PlayUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/PlayUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/RenderResultCache.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/RenderResultCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/ShouldRefreshException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/ShouldRefreshException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/exceptions/MailException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/exceptions/MailException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/exceptions/ReverseRouteException.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/exceptions/ReverseRouteException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/JavaActionBridge.scala" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/JavaActionBridge.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/JaxrsRouter.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/JaxrsRouter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/MyTuple2.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/MyTuple2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/OptionalExt.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/OptionalExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/ParamSpec.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/ParamSpec.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/RegMatch.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/RegMatch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/ResultBuilder.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/ResultBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/RouteEntry.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/RouteEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/RouterClass.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/RouterClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/RouterMethod.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/RouterMethod.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/RouterUtils.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/RouterUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/TargetClassWithPath.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/TargetClassWithPath.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/routing/WrapProducer.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/WrapProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/tags/CacheBlock.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/tags/CacheBlock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/cn/bran/play/tags/Include.java" afterPath="$PROJECT_DIR$/app/com/nyampass/jerk/play/tags/Include.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/japidviews/dev404.java" afterPath="$PROJECT_DIR$/app/japidviews/dev404.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/japidviews/devError.html" afterPath="$PROJECT_DIR$/conf/japidviews/devError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/japidviews/devError.java" afterPath="$PROJECT_DIR$/app/japidviews/devError.java" />
+    </list>
+    <ignored path="japid42.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="japid42" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GlobalSettingsWithJapid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/GlobalSettingsWithJapid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="5475">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JapidResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="2295">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mail.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/Mail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5670">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTuple2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/MyTuple2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JaxrsRouter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/JaxrsRouter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JapidController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="5775">
+              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <folding>
+                <element signature="e#823#972#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/PlayUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="600">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTuple2.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/MyTuple2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="473">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetClassWithPath.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/TargetClassWithPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/cn/bran/japid/classmeta/AbstractTemplateClassMetaData.java" />
+        <option value="$PROJECT_DIR$/app/cn/bran/japid/MyTuple2.java" />
+        <option value="$PROJECT_DIR$/app/com/nyampass/nyampass/japid/MyTuple2.java" />
+        <option value="$PROJECT_DIR$/app/com/nyampass/japid/MyTuple2.java" />
+        <option value="$PROJECT_DIR$/app/com/nyampass/jerk/MyTuple2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages PackagesPane="true" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages PackagesPane="true" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japidviews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jark-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Build.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japidviews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="japid42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nyampass" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63dc6efc-0913-4c3e-b897-fc71a2e321d8" name="Default" comment="" />
+      <created>1398208456678</created>
+      <updated>1398208456678</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/AbstractTemplateClassMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="12420">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dummy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7575">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/AbstractTemplateClassMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="11640">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2985">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dummy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="733">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/AbstractTemplateClassMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="217.42308" vertical-offset="9958" max-vertical-offset="11265">
+          <caret line="336" column="24" selection-start-line="336" selection-start-column="21" selection-end-line="336" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/japidviews/dev404.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4335">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/classmeta/InnerClassMeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="718">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/htmlentities.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4095">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/GlobalSettingsWithJapid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="5475">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="2295">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5670">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/TargetClassWithPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/MyTuple2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/routing/JaxrsRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/JapidController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="5775">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="e#823#972#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/play/PlayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="600">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com/nyampass/jerk/MyTuple2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

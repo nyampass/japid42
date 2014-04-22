@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/Jark-build.iml" filepath="$PROJECT_DIR$/.idea_modules/Jark-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/Jerk.iml" filepath="$PROJECT_DIR$/.idea_modules/Jerk.iml" />
+    </modules>
+  </component>
+</project>
+

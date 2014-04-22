@@ -7,13 +7,13 @@ import play.mvc.Http.Flash;
 import play.mvc.Http.Request;
 import play.mvc.Http.Response;
 import play.mvc.Http.Session;
-import cn.bran.japid.tags.Each;
-import cn.bran.play.routing.RouteEntry;
+import com.nyampass.jerk.tags.Each;
+import com.nyampass.jerk.play.routing.RouteEntry;
 //
 // NOTE: This file was generated from: japidviews/dev404.html
 // Change to this file will be lost next time the template file is compiled.
 //
-public class dev404 extends cn.bran.play.JapidTemplateBase
+public class dev404 extends com.nyampass.jerk.play.JapidTemplateBase
 {
 	public static final String sourceTemplate = "japidviews/dev404.html";
 	{
@@ -59,16 +59,16 @@ boolean hasHttpContext = play.mvc.Http.Context.current.get() != null ? true : fa
 	private play.mvc.Http.RequestHeader reqheader; // line 2
 	private List<scala.Tuple3<String, String, String>> routes; // line 2
 	private List<RouteEntry> jaxRoutes; // line 2
-	public cn.bran.japid.template.RenderResult render(play.mvc.Http.RequestHeader reqheader,List<scala.Tuple3<String, String, String>> routes,List<RouteEntry> jaxRoutes) {
+	public com.nyampass.jerk.template.RenderResult render(play.mvc.Http.RequestHeader reqheader,List<scala.Tuple3<String, String, String>> routes,List<RouteEntry> jaxRoutes) {
 		this.reqheader = reqheader;
 		this.routes = routes;
 		this.jaxRoutes = jaxRoutes;
 		long __t = -1;
 		try {super.layout();} catch (RuntimeException e) { super.handleException(e);} // line 2
-		return new cn.bran.japid.template.RenderResultPartial(getHeaders(), getOut(), __t, actionRunners, sourceTemplate);
+		return new com.nyampass.jerk.template.RenderResultPartial(getHeaders(), getOut(), __t, actionRunners, sourceTemplate);
 	}
 
-	public static cn.bran.japid.template.RenderResult apply(play.mvc.Http.RequestHeader reqheader,List<scala.Tuple3<String, String, String>> routes,List<RouteEntry> jaxRoutes) {
+	public static com.nyampass.jerk.template.RenderResult apply(play.mvc.Http.RequestHeader reqheader,List<scala.Tuple3<String, String, String>> routes,List<RouteEntry> jaxRoutes) {
 		return new dev404().render(reqheader, routes, jaxRoutes);
 	}
 

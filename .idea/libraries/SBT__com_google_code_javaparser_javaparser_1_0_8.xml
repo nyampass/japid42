@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.google.code.javaparser:javaparser:1.0.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/src/play-2.2.2/repository/cache/com.google.code.javaparser/javaparser/jars/javaparser-1.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: scala:2.10.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/src/play-2.2.2/repository/local/org.scala-lang/scala-reflect/2.10.2/jars/scala-reflect.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
